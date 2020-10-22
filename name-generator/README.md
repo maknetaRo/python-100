@@ -17,23 +17,25 @@ Why I'm storing data first? Because if we use scraper too often, some websites c
 
 I'm using two Python libraries: BeautifulSoup and requests. To do it, first, I'm creating a virtual environment using pipenv and installing those libraries.
 
-    [//] Create an environment
+    # Create an environment
     pipenv --python 3.7
-    [//] and activate
+    # and activate
     pipenv shell
 
-    [//] Install (on Linux):
+    # Install (on Linux):
 
-    [//] beautiful soup
+    # beautiful soup
     pipenv install beautifulsoup4
 
-    [//check if it's working - open python shell
+    # check if it's working - open python shell
     python
 
-    from bs4 import BeautifulSoup
+    >>from bs4 import BeautifulSoup
 
-    [//] requests
+    # requests
     pipenv install requests
+
+    >>import requests
 
 ## The requests library is used to send all kinds of HTTP requests.
 
